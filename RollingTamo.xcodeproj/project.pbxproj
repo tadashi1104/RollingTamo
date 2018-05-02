@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401A17391B39A2AF00F6D1D9 /* k8x12L.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 401A17041B36AA6500F6D1D9 /* k8x12L.ttf */; };
+		40286A9D1B22D31A0066B706 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40286A9C1B22D31A0066B706 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		40286A9F1B22D3260066B706 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40286A9E1B22D3260066B706 /* Security.framework */; };
+		40286AA11B22D3310066B706 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40286AA01B22D3310066B706 /* ImageIO.framework */; };
 		403ECF0C1B18943800304D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403ECF0B1B18943800304D15 /* AppDelegate.swift */; };
-		403ECF0E1B18943800304D15 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 403ECF0D1B18943800304D15 /* GameScene.sks */; };
-		403ECF101B18943800304D15 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403ECF0F1B18943800304D15 /* GameScene.swift */; };
-		403ECF121B18943800304D15 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403ECF111B18943800304D15 /* GameViewController.swift */; };
 		403ECF151B18943800304D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403ECF131B18943800304D15 /* Main.storyboard */; };
-		403ECF171B18943800304D15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403ECF161B18943800304D15 /* Images.xcassets */; };
-		403ECF1A1B18943800304D15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 403ECF181B18943800304D15 /* LaunchScreen.xib */; };
 		403ECF261B18943800304D15 /* RollingTamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403ECF251B18943800304D15 /* RollingTamoTests.swift */; };
+		403ECF351B18BB6700304D15 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403ECF341B18BB6700304D15 /* CoreMotion.framework */; };
+		403ECF3D1B1AEE1C00304D15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403ECF3C1B1AEE1C00304D15 /* Images.xcassets */; };
+		409DC1811B1E686D00004EBF /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409DC1801B1E686D00004EBF /* GameKit.framework */; };
+		409DC1831B1F1D1300004EBF /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409DC1821B1F1D1300004EBF /* iAd.framework */; };
+		409DC1881B1F5DD300004EBF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403ECF111B18943800304D15 /* GameViewController.swift */; };
+		409DC18A1B1F5EC500004EBF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403ECF0F1B18943800304D15 /* GameScene.swift */; };
+		409DC1951B21E5AC00004EBF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409DC1941B21E5AC00004EBF /* Social.framework */; };
+		409DC1AA1B2267BB00004EBF /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 409DC1A31B2267BB00004EBF /* libNendAd.a */; };
+		409DC1AB1B2267BB00004EBF /* NADView_readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 409DC1A91B2267BB00004EBF /* NADView_readme.txt */; };
+		40D13E601B234A2B00D9EC9A /* TamoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 40D13E5F1B234A2B00D9EC9A /* TamoIcon.png */; };
+		40D13E651B234DD700D9EC9A /* Haretsu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 40D13E621B234DD700D9EC9A /* Haretsu.caf */; };
+		40D13E661B234DD700D9EC9A /* TitleMusic.caf in Resources */ = {isa = PBXBuildFile; fileRef = 40D13E631B234DD700D9EC9A /* TitleMusic.caf */; };
+		40D13E681B23531B00D9EC9A /* GameCommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D13E671B23531B00D9EC9A /* GameCommonFunction.swift */; };
+		40D13E6D1B2379E500D9EC9A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40D13E6F1B2379E500D9EC9A /* Localizable.strings */; };
+		40D13E771B2393EF00D9EC9A /* BGM.caf in Resources */ = {isa = PBXBuildFile; fileRef = 40D13E761B2393EF00D9EC9A /* BGM.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +42,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		401A17031B36AA6500F6D1D9 /* k8x12.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = k8x12.ttf; sourceTree = "<group>"; };
+		401A17041B36AA6500F6D1D9 /* k8x12L.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = k8x12L.ttf; sourceTree = "<group>"; };
+		401A17051B36AA6500F6D1D9 /* k8x12S.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = k8x12S.ttf; sourceTree = "<group>"; };
+		401A17371B39A03700F6D1D9 /* NendAd-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NendAd-Bridging-Header.h"; sourceTree = "<group>"; };
+		40286A9C1B22D31A0066B706 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		40286A9E1B22D3260066B706 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		40286AA01B22D3310066B706 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		403ECF061B18943800304D15 /* RollingTamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollingTamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		403ECF0A1B18943800304D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		403ECF0B1B18943800304D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		403ECF0D1B18943800304D15 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		403ECF0F1B18943800304D15 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		403ECF111B18943800304D15 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		403ECF141B18943800304D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		403ECF161B18943800304D15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		403ECF191B18943800304D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		403ECF1F1B18943800304D15 /* RollingTamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollingTamoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		403ECF241B18943800304D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		403ECF251B18943800304D15 /* RollingTamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingTamoTests.swift; sourceTree = "<group>"; };
+		403ECF341B18BB6700304D15 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		403ECF3C1B1AEE1C00304D15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		409DC1801B1E686D00004EBF /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		409DC1821B1F1D1300004EBF /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		409DC1941B21E5AC00004EBF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		409DC1A31B2267BB00004EBF /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNendAd.a; sourceTree = "<group>"; };
+		409DC1A41B2267BB00004EBF /* NADIconArrayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconArrayView.h; sourceTree = "<group>"; };
+		409DC1A51B2267BB00004EBF /* NADIconLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconLoader.h; sourceTree = "<group>"; };
+		409DC1A61B2267BB00004EBF /* NADIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconView.h; sourceTree = "<group>"; };
+		409DC1A71B2267BB00004EBF /* NADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADInterstitial.h; sourceTree = "<group>"; };
+		409DC1A81B2267BB00004EBF /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADView.h; sourceTree = "<group>"; };
+		409DC1A91B2267BB00004EBF /* NADView_readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NADView_readme.txt; sourceTree = "<group>"; };
+		40A6FBD11B31F2CE00FEFA41 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/Localizable.strings; sourceTree = "<group>"; };
+		40A6FBD21B31F2CE00FEFA41 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/Main.strings; sourceTree = "<group>"; };
+		40D13E5F1B234A2B00D9EC9A /* TamoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TamoIcon.png; sourceTree = SOURCE_ROOT; };
+		40D13E621B234DD700D9EC9A /* Haretsu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Haretsu.caf; sourceTree = SOURCE_ROOT; };
+		40D13E631B234DD700D9EC9A /* TitleMusic.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TitleMusic.caf; sourceTree = SOURCE_ROOT; };
+		40D13E671B23531B00D9EC9A /* GameCommonFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCommonFunction.swift; sourceTree = "<group>"; };
+		40D13E701B237BA800D9EC9A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		40D13E711B237BA800D9EC9A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		40D13E721B237BD300D9EC9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		40D13E731B237C3E00D9EC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		40D13E761B2393EF00D9EC9A /* BGM.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BGM.caf; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +88,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40286AA11B22D3310066B706 /* ImageIO.framework in Frameworks */,
+				40286A9F1B22D3260066B706 /* Security.framework in Frameworks */,
+				40286A9D1B22D31A0066B706 /* AdSupport.framework in Frameworks */,
+				409DC1951B21E5AC00004EBF /* Social.framework in Frameworks */,
+				409DC1831B1F1D1300004EBF /* iAd.framework in Frameworks */,
+				409DC1AA1B2267BB00004EBF /* libNendAd.a in Frameworks */,
+				409DC1811B1E686D00004EBF /* GameKit.framework in Frameworks */,
+				403ECF351B18BB6700304D15 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +112,17 @@
 		403ECEFD1B18943800304D15 = {
 			isa = PBXGroup;
 			children = (
+				403ECF341B18BB6700304D15 /* CoreMotion.framework */,
+				40286AA01B22D3310066B706 /* ImageIO.framework */,
+				40286A9E1B22D3260066B706 /* Security.framework */,
+				40286A9C1B22D31A0066B706 /* AdSupport.framework */,
+				409DC1A21B2267BB00004EBF /* NendAd */,
+				409DC1941B21E5AC00004EBF /* Social.framework */,
+				409DC1801B1E686D00004EBF /* GameKit.framework */,
+				409DC1821B1F1D1300004EBF /* iAd.framework */,
+				401A17031B36AA6500F6D1D9 /* k8x12.ttf */,
+				401A17041B36AA6500F6D1D9 /* k8x12L.ttf */,
+				401A17051B36AA6500F6D1D9 /* k8x12S.ttf */,
 				403ECF081B18943800304D15 /* RollingTamo */,
 				403ECF221B18943800304D15 /* RollingTamoTests */,
 				403ECF071B18943800304D15 /* Products */,
@@ -82,13 +142,14 @@
 			isa = PBXGroup;
 			children = (
 				403ECF0B1B18943800304D15 /* AppDelegate.swift */,
-				403ECF0D1B18943800304D15 /* GameScene.sks */,
 				403ECF0F1B18943800304D15 /* GameScene.swift */,
+				40D13E671B23531B00D9EC9A /* GameCommonFunction.swift */,
+				401A17371B39A03700F6D1D9 /* NendAd-Bridging-Header.h */,
 				403ECF111B18943800304D15 /* GameViewController.swift */,
 				403ECF131B18943800304D15 /* Main.storyboard */,
-				403ECF161B18943800304D15 /* Images.xcassets */,
-				403ECF181B18943800304D15 /* LaunchScreen.xib */,
+				403ECF3C1B1AEE1C00304D15 /* Images.xcassets */,
 				403ECF091B18943800304D15 /* Supporting Files */,
+				40D13E6F1B2379E500D9EC9A /* Localizable.strings */,
 			);
 			path = RollingTamo;
 			sourceTree = "<group>";
@@ -96,6 +157,10 @@
 		403ECF091B18943800304D15 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				40D13E5F1B234A2B00D9EC9A /* TamoIcon.png */,
+				40D13E621B234DD700D9EC9A /* Haretsu.caf */,
+				40D13E761B2393EF00D9EC9A /* BGM.caf */,
+				40D13E631B234DD700D9EC9A /* TitleMusic.caf */,
 				403ECF0A1B18943800304D15 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -116,6 +181,20 @@
 				403ECF241B18943800304D15 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		409DC1A21B2267BB00004EBF /* NendAd */ = {
+			isa = PBXGroup;
+			children = (
+				409DC1A31B2267BB00004EBF /* libNendAd.a */,
+				409DC1A41B2267BB00004EBF /* NADIconArrayView.h */,
+				409DC1A51B2267BB00004EBF /* NADIconLoader.h */,
+				409DC1A61B2267BB00004EBF /* NADIconView.h */,
+				409DC1A71B2267BB00004EBF /* NADInterstitial.h */,
+				409DC1A81B2267BB00004EBF /* NADView.h */,
+				409DC1A91B2267BB00004EBF /* NADView_readme.txt */,
+			);
+			path = NendAd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,14 +241,19 @@
 		403ECEFE1B18943800304D15 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Tadashi.S;
 				TargetAttributes = {
 					403ECF051B18943800304D15 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = V3VL8226ZP;
+						LastSwiftMigration = 0820;
 					};
 					403ECF1E1B18943800304D15 = {
 						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0820;
 						TestTargetID = 403ECF051B18943800304D15;
 					};
 				};
@@ -181,6 +265,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
+				zh,
 			);
 			mainGroup = 403ECEFD1B18943800304D15;
 			productRefGroup = 403ECF071B18943800304D15 /* Products */;
@@ -198,10 +284,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403ECF1A1B18943800304D15 /* LaunchScreen.xib in Resources */,
-				403ECF171B18943800304D15 /* Images.xcassets in Resources */,
-				403ECF0E1B18943800304D15 /* GameScene.sks in Resources */,
+				40D13E6D1B2379E500D9EC9A /* Localizable.strings in Resources */,
+				40D13E771B2393EF00D9EC9A /* BGM.caf in Resources */,
+				409DC1AB1B2267BB00004EBF /* NADView_readme.txt in Resources */,
+				403ECF3D1B1AEE1C00304D15 /* Images.xcassets in Resources */,
 				403ECF151B18943800304D15 /* Main.storyboard in Resources */,
+				40D13E601B234A2B00D9EC9A /* TamoIcon.png in Resources */,
+				40D13E651B234DD700D9EC9A /* Haretsu.caf in Resources */,
+				401A17391B39A2AF00F6D1D9 /* k8x12L.ttf in Resources */,
+				40D13E661B234DD700D9EC9A /* TitleMusic.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +310,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403ECF101B18943800304D15 /* GameScene.swift in Sources */,
-				403ECF121B18943800304D15 /* GameViewController.swift in Sources */,
+				409DC18A1B1F5EC500004EBF /* GameScene.swift in Sources */,
+				409DC1881B1F5DD300004EBF /* GameViewController.swift in Sources */,
+				40D13E681B23531B00D9EC9A /* GameCommonFunction.swift in Sources */,
 				403ECF0C1B18943800304D15 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,16 +340,21 @@
 			isa = PBXVariantGroup;
 			children = (
 				403ECF141B18943800304D15 /* Base */,
+				40D13E711B237BA800D9EC9A /* ja */,
+				40A6FBD21B31F2CE00FEFA41 /* zh */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		403ECF181B18943800304D15 /* LaunchScreen.xib */ = {
+		40D13E6F1B2379E500D9EC9A /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				403ECF191B18943800304D15 /* Base */,
+				40D13E701B237BA800D9EC9A /* ja */,
+				40D13E721B237BD300D9EC9A /* en */,
+				40D13E731B237C3E00D9EC9A /* Base */,
+				40A6FBD11B31F2CE00FEFA41 /* zh */,
 			);
-			name = LaunchScreen.xib;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -297,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -344,9 +441,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RollingTamo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/TadashiSuzuki/Downloads/NendSDK_iOS-2.6.0/Nend/NendAd",
+					"$(PROJECT_DIR)/NendAd",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/TadashiSuzuki/Desktop/AppDev/Projects/Products/RollingTamo/RollingTamo/NendAd-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -354,9 +463,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RollingTamo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/TadashiSuzuki/Downloads/NendSDK_iOS-2.6.0/Nend/NendAd",
+					"$(PROJECT_DIR)/NendAd",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/TadashiSuzuki/Desktop/AppDev/Projects/Products/RollingTamo/RollingTamo/NendAd-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -375,6 +496,7 @@
 				INFOPLIST_FILE = RollingTamoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollingTamo.app/RollingTamo";
 			};
 			name = Debug;
@@ -390,6 +512,7 @@
 				INFOPLIST_FILE = RollingTamoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollingTamo.app/RollingTamo";
 			};
 			name = Release;
@@ -413,6 +536,7 @@
 				403ECF2B1B18943800304D15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		403ECF2C1B18943800304D15 /* Build configuration list for PBXNativeTarget "RollingTamoTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +545,7 @@
 				403ECF2E1B18943800304D15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

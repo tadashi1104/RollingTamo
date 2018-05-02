@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  RollingTamo
+
+  Created by 鈴木 義 on 2015/06/07.
+  Copyright (c) 2015年 Tadashi.S. All rights reserved.
+*/
+
+"word1" = "あれ。。。？あれ。。。？なんだこれ？";
+"word2" = "あっ、しまった。。。";
+"word3" = "だいぶ、すすんだな〜";
+"word4" = "いやいや、何言ってんですかー？";
+"word5" = "髪がなぁ。。。";
+"word6" = "身体はどこに行ったんだろうか？";
+"word7" = "身体はどこへ消えた！？";
+"word8" = "独り言、、言うけど気にしないでね。";
+"word9" = "落ち込むなぁ。。。";
+"wordGameOver" = "ひょえ〜";
+
+"Tweet" = "私はTamoちゃんを、[Score]kmもの距離を転がした。しかし、志半ばで爆発してまった。Tamoちゃんはいつか身体を見つけ出すことは出来るのか！？<https://itunes.apple.com/jp/app/rollingtamo/id1001324860?l=ja&ls=1&mt=8>";

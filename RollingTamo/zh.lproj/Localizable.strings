@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  RollingTamo
+
+  Created by 鈴木 義 on 2015/06/07.
+  Copyright (c) 2015年 Tadashi.S. All rights reserved.
+*/
+
+"word1" = "什么？什么？这是什么？";
+"word2" = "靠杯！";
+"word3" = "很多我先进。";
+"word4" = "并不是的!?";
+"word5" = "发...";
+"word6" = "我的身体哪里去了。";
+"word7" = "谁动了我的身体...";
+"word8" = "对不起，我自言自语。";
+"word9" = "获取郁闷...";
+"wordGameOver" = "Hyoeeeeee";
+
+"Tweet" = "Tamo已经进行[Score]公里。。然而，愚昧爆炸了。愿他找到尸体！？ <https://itunes.apple.com/cn/app/rollingtamo/id1001324860?l=zh&ls=1&mt=8>";

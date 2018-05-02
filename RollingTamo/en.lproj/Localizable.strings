@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  RollingTamo
+
+  Created by 鈴木 義 on 2015/06/07.
+  Copyright (c) 2015年 Tadashi.S. All rights reserved.
+*/
+
+"word1" = "What? What? What is this?";
+"word2" = "Oh, My god...";
+"word3" = "Lot I advanced.";
+"word4" = "Not really!?";
+"word5" = "Hair...";
+"word6" = "My body was where to go.";
+"word7" = "Who Moved My body...";
+"word8" = "Sorry, I talk to oneself.";
+"word9" = "Get depressed...";
+"wordGameOver" = "Hyoeeeeee";
+
+"Tweet" = "I was rolled [Score]Km Tamo. However, Tamo has exploded. May he find a body!? <https://itunes.apple.com/us/app/rollingtamo/id1001324860?l=us&ls=1&mt=8>";
